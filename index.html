@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Chill with me</title>
+  <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=0.5, minimum-scale=0.5, width=device-width" />
+  <link rel='icon' href='./Background/gg.png'>
+  <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.3.1/css/all.css'>
+  <link rel="stylesheet" href="./filr/style.css">
+  <link rel="stylesheet" href="./s.css">
+  
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<!-- Tracks used in this music/audio player application are free to use. I downloaded them from Soundcloud and NCS websites. I am not the owner of these tracks. -->
+
+    <div id="app-cover">
+
+        <div id="bg-artwork">
+<!--                    <div id='stars'></div>-->
+                    <div id='stars2'></div>
+<!--                    <div id='stars3'></div>-->
+        </div>
+        <div id="bg-layer"></div>
+
+        <div id="player">
+            <div id="player-track">
+                <div id="album-name"></div>
+                <div id="track-name"></div>
+                <div id="track-time">
+                    <div id="current-time"></div>
+                    <div id="track-length"></div>
+                </div>
+                <div id="s-area">
+                    <div id="ins-time"></div>
+                    <div id="s-hover"></div>
+                    <div id="seek-bar"></div>
+                </div>
+            </div>
+            <div id="player-content">
+                <div id="album-art">
+                    <img src="Background/gg.png" class="active" id="_1">
+                    <div id="buffer-box">Buffering ...</div>
+                </div>
+                <div id="player-controls">
+                    <div class="control">
+                        <div class="button" id="play-previous">
+                            <i class="fas fa-backward"></i>
+                        </div>
+                    </div>
+                    <div class="control">
+                        <div class="button" id="play-pause-button">
+                            <i class="fas fa-play"></i>
+                        </div>
+                    </div>
+                    <div class="control">
+                        <div class="button" id="play-next">
+                            <i class="fas fa-forward"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="infor">
+                <div class="songname">
+                    <div id="pre-song"></div>
+                    <div class="line"></div>
+                </div>
+                <div class="songname">
+                    <div id="now-song"></div>
+                    <div class="line" style="background-color:#f86d92; height: 2px; opacity: 0.8;filter: blur(0.7px);"></div>
+                </div>
+                <div class="songname">
+                    <div id="next-song" style="font-size: 18px;color:#f86d92; opacity: 0.6" ></div>
+                    <div class="line"></div>
+                </div>
+                <div class="songname">
+                    <div id="next1-song"></div>
+                    <div class="line"></div>
+                </div>
+                <div class="songname">
+                    <div id="next2-song"></div>
+<!--                    <div class="line"></div>-->
+                </div>
+            </div>
+        </div>
+        
+    </div>
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script><script  src="./filr/script.js"></script>
+
+</body>
+</html>
